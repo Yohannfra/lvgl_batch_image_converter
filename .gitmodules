@@ -1,0 +1,3 @@
+[submodule "lv_utils"]
+	path = lv_utils
+	url = https://github.com/lvgl/lv_utils
