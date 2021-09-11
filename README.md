@@ -1,15 +1,15 @@
-# LGVL helper script to batch and convert with lvgl offline image converter
+## LGVL helper script to batch and convert with lvgl offline image converter
 
-## Clone this repository
+### Clone this repository
 
 ```
 $ git clone --recursive https://github.com/Yohannfra/lvgl_batch_image_converter.git
 ```
 
 
-## How to use
+### How to use
 
-Edit the variables **CF** and **FORMAT** in [run_batch.py]() to fit your needs.
+Edit the variables **CF** and **FORMAT** in [run_batch.py](./run_batch.py) to fit your needs.
 
 ```bash
 # run on all directory (only .png, .jpg and .bmp will be converted)
