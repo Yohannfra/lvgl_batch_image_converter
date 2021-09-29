@@ -20,7 +20,7 @@ FORMAT = "bin_565_swap"
 def convert_file(fp: str):
     if not fp.endswith(('.png', '.jpg', '.bmp')):
         return
-    output_file_name = fp.split('.')[0]
+    output_file_name = fp.rsplit(".", 1)[0]
     print(f"Converting {fp}")
     command = f"php {PATH_TO_LVGL_IMG_CONVERTER} \"name={output_file_name}&img={fp}&format={FORMAT}&cf={CF}\""
     os.system(command)
